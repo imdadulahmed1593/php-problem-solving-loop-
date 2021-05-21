@@ -1,6 +1,6 @@
 <?php
 
-// first day problems (easier)
+// first day //problems (easier)
  $year = 1900;
  if($year%4 == 0){
      if($year%100 == 0){
@@ -49,16 +49,16 @@ if($code>47 && $code<58){
     echo $char." is a symbol";
 }
 
-// first day problems (easier)
+// first day //problems (easier)
 
 
-Problem 1
+//problem 1
 $n=10;
 for($i=1; $i<=$n; $i++){
     echo "$i ";
 }
 
-Problem 2
+//problem 2
 $n=10;
 $sum=0;
 for($i=1; $i<=$n;$i++){
@@ -66,7 +66,7 @@ for($i=1; $i<=$n;$i++){
 }
 echo "The sum is: $sum";
 
-Problem 3
+//problem 3
 $n=10;
 $sum=0;
 for($i=1; $i<=$n;$i++){
@@ -79,22 +79,22 @@ for($i=1; $i<=$n; $i++){
 echo "<br>";
 echo "The sum is: $sum";
 
-Problem 4
+//problem 4
 
-Problem 5
+//problem 5
 $n=10;
 for($i=1; $i<=$n; $i++){
     $cubeResult = pow($i, 3);
     echo "The number is $i and cube of the number is : $cubeResult<br>";
 }
 
-Problem 6
+//problem 6
 $n=9;
 for($i=1; $i<=10; $i++){
     echo "$n x $i = ".$n*$i."<br>";
 }
 
-Problem 7
+//problem 7
 $n=9;
 for($multiplier=1; $multiplier<=10; $multiplier++){
     for($i=1; $i<=$n; $i++){
@@ -103,7 +103,7 @@ for($multiplier=1; $multiplier<=10; $multiplier++){
     echo "<br>";
 }
 
-Problem 8
+//problem 8
 $n=10;
 $sum=0;
 echo "The odd numbers are : ";
@@ -114,7 +114,7 @@ for($i=0; $i<$n; $i++){
 }
 echo "<br> The sum of odd Natural numbers upto $n terms : $sum";
 
-Problem 9
+//problem 9
 $rows=10;
 for($i=1; $i<=$rows; $i++){
     for($j=1; $j<=$i; $j++){
@@ -123,7 +123,7 @@ for($i=1; $i<=$rows; $i++){
     echo "<br>";
 }
 
-Problem 10
+//problem 10
 $rows=10;
 for($i=1; $i<=$rows; $i++){
     for($j=1; $j<=$i; $j++){
@@ -132,7 +132,7 @@ for($i=1; $i<=$rows; $i++){
     echo "<br>";
 }
 
-Problem 11
+//problem 11
 $rows=9;
 for($i=1; $i<=$rows; $i++){
     for($j=1; $j<=$i; $j++){
@@ -141,7 +141,7 @@ for($i=1; $i<=$rows; $i++){
     echo "<br>";
 }
 
-Problem 12
+//problem 12
 $rows=9;
 $k=1;
 for($i=1; $i<=$rows; $i++){
@@ -152,7 +152,7 @@ for($i=1; $i<=$rows; $i++){
     echo "<br>";
 }
 
-Problem 13
+//problem 13
 $rows=10;
 $num=1;
 $spaces=$rows-1;
@@ -167,7 +167,7 @@ for($i=1; $i<=$rows; $i++){
     echo "<br>";
 }
 
-Problem 14
+//problem 14
 $rows=10;
 $spaces=$rows-1;
 for($i=1; $i<=$rows; $i++){
@@ -180,7 +180,7 @@ for($i=1; $i<=$rows; $i++){
     echo "<br>";
 }
 
-problem 15
+//problem 15
 $n=5;
 $product=1;
 for($i=$n; $i>=1; $i--){
@@ -188,7 +188,7 @@ for($i=$n; $i>=1; $i--){
 }
 echo "The factorial of $n is $product";
 
-Problem 16
+//problem 16
 $terms=5;
 $sum=0;
 echo "The even numbers are: ";
@@ -199,7 +199,7 @@ for($i=1; $i<=$terms; $i++){
 }
 echo "<br>The sum of even numbers upto $terms terms: $sum";
 
-problem 17
+//problem 17
 $rows=4;
 for($i=1; $i<=$rows; $i++){
     for ($j=1; $j<=$i; $j++) { 
@@ -210,7 +210,7 @@ for($i=1; $i<=$rows; $i++){
 
 
 
-problem 18
+//problem 18
 $x=2;
 $terms=5;
 $sum=0;
@@ -230,7 +230,7 @@ function factorial($n){
 
 
 
-problem 19
+//problem 19
 $terms=5;
 $sum=0;
 for($i=1; $i<=$terms; $i++){
@@ -240,7 +240,7 @@ echo "Sum of the harmonic series upto $terms terms : $sum";
 
 
 
-problem 20
+//problem 20
 $rows= 5;
 for ($i=0;$i<$rows;$i++){
     $asterisks=2*$i+1;
@@ -251,7 +251,7 @@ for ($i=0;$i<$rows;$i++){
 }
 
 
-problem 21
+//problem 21
 $terms=5;
 $sum=0;
 for ($i=0; $i<$terms; $i++){
@@ -264,10 +264,10 @@ for ($i=0; $i<$terms; $i++){
 echo "The sum of the series: $sum";
 
 
-problem 22
+//problem 22
 
 
-problem 23
+//problem 23
 $x=3;
 $terms=5;
 $sum=0;
@@ -285,7 +285,7 @@ function factorial($n){
     return $product;
 }
 
-//problem 24
+////problem 24
 $x=2;
 $terms=5;
 $sum=0;
@@ -305,7 +305,7 @@ function factorial($n){
 
 
 
-problem 25
+//problem 25
 $terms=5;
 $sum=0;
 for ($i=1; $i<=$terms; $i++){
@@ -315,7 +315,7 @@ for ($i=1; $i<=$terms; $i++){
 echo "The sum = $sum <br> Number of terms = $terms ";
 
 
-problem 26
+//problem 26
 $terms=5;
 $sum=0;
 for ($i=0; $i<$terms; $i++){
@@ -327,7 +327,7 @@ for ($i=0; $i<$terms; $i++){
 }
 echo "The sum of the series: $sum";
 
-problem 27
+//problem 27
 $num=28;
 $sum=0;
 for( $i =1; $i<$num; $i++){
@@ -343,7 +343,7 @@ if($sum != $num){
 }
 
 
-problem 28
+//problem 28
 function findPerfectNums($start, $end){
     $perfects=array( );
     for ($i=$start; $i<=$end; $i++){
@@ -377,7 +377,7 @@ findPerfectNums(1,50);
 
 
 
-//problem 29
+////problem 29
 function findArmstrong($num){
     $number = strval($num);
     $sum = 0;
@@ -398,7 +398,7 @@ findArmstrong(153);
 
 
 
-problem 30
+//problem 30
 
 function findArmstrongNums($start, $end){
     $armstrongs= array();
@@ -433,7 +433,7 @@ function findArmstrong($num){
 findArmstrongNums(1,1000);
 
 
-problem 31
+//problem 31
 $rows= 5;
 for ($i=0;$i<=$rows;$i++){
     for($k=1; $k<=$rows-$i; $k++){
@@ -457,7 +457,7 @@ for ($i=$rows-1;$i>=1;$i--){
 }
 
 
-problem 32 
+//problem 32 
 function findPrime($n){
     if($n==1 || $n<0){
         echo "it is not a prime number";
@@ -475,7 +475,7 @@ function findPrime($n){
 findPrime(13);
 
 
-problem 33
+//problem 33
 function pascalsTriangle($rows){
    
     for ($i=0; $i < $rows; $i++) { 
@@ -503,7 +503,7 @@ function factorial($n){
 pascalsTriangle(10);
 
 
-problem 34
+//problem 34
 function findAllPrimes($start, $end){
     $primes = array();
     for( $i = $start; $i<=$end; $i++){
@@ -533,7 +533,7 @@ function findPrime($n){
 findAllPrimes(1,30);
 
 
-problem 35
+//problem 35
 function fibonacci($n){
     $series = array(0,1);
     for ($i=2; $i <$n ; $i++) {
@@ -552,10 +552,10 @@ fibonacci(10);
 
 
 
-problem 36
+//problem 36
 
 
-problelm 37
+//problem 37
 function reverseNum($num){
     $string = strval($num);
     $reverse = "";
@@ -569,7 +569,7 @@ function reverseNum($num){
 echo "The reversed number is ".reverseNum(12345);
 
 
-problem 38
+//problem 38
 function palindromeCheck($num){
     if(reverseNum($num) == $num){
         echo "$num is a palindrome";
@@ -590,7 +590,7 @@ function reverseNum($num){
 palindromeCheck(122);
 
 
-problem 39
+//problem 39
 function sumOfNinesFactors($start, $end){
     $sum = 0;
     for ($i=$start; $i <$end ; $i++) { 
@@ -604,10 +604,10 @@ function sumOfNinesFactors($start, $end){
 echo "".sumOfNinesFactors(100,200);
 
 
-problem 40
+//problem 40
 
 
-// problem 41
+// //problem 41
 function decToBinary($x) {
     $bin = 0;
     $rem; $i = 1; $step = 1;
